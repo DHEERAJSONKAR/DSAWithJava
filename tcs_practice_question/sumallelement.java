@@ -1,3 +1,4 @@
+// Write a program to find the sum of all elements in an array.
 class sumallelement{
     public static void main(String[] args){
         int [] arr = {34,5,6,23,56};
