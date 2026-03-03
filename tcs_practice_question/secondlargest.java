@@ -1,3 +1,4 @@
+// Write a program to find the second largest element in an array.
 class secondlargest{
     public static void main(String[] args){
         int [] arr = {12,34,23,45,43,56,};
