@@ -1,26 +1,21 @@
 // find a frequency in a array.
 import java.util.HashMap;
-
-public class frequency_array {
-    public static void main(String[] args) {
-
-        int[] arr = {1,2,2,3,1,4,2};
-
-        HashMap<Integer,Integer> map = new HashMap<>();
-
+class frequency_array{
+    public static void main(String[] args){
+        HashMap<Integer, Integer> Map = new HashMap<>();
+        int arr[] = {1,2,1,2,3,4,3,4,2,1,2,3,4,};
         for(int num : arr){
-
-            if(map.containsKey(num)){
-                map.put(num, map.get(num) + 1);
+            if(Map.containsKey(num)){
+                Map.put(num, Map.get(num)+1);
             }
             else{
-                map.put(num, 1);
+                Map.put(num, 1);
             }
-
+            
         }
-
-        for(Integer key : map.keySet()){
-            System.out.println(key + " -> " + map.get(key));
+        for(Integer key : Map.keySet()){
+            System.out.println(key + " -> " + Map.get(key));
         }
+        
     }
 }
