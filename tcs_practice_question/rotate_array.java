@@ -10,8 +10,8 @@ class rotate_array{
         }
     }
     public static void main(String[] args){
-        int[] arr = {12,3,4,10,45};
-        int k = 3;
+        int[] arr = {1,2,3,4,5};
+        int k = 2;
         int n = arr.length;
         k= k%n;
         reverse(arr, 0, n-1);
@@ -19,6 +19,6 @@ class rotate_array{
         reverse(arr, k, n-1);
     
      for(int num : arr)
-    System.out.print(num + " ");
+    System.out.println(num + " ");
     }
 }
