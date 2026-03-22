@@ -3,6 +3,7 @@
 import java.util.Scanner;
 class average{
     public static void main(String[] args){
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number:");
         double num1 = sc.nextDouble();
