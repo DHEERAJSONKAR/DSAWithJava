@@ -213,7 +213,7 @@
 // floy'd Trianlge
 public class pyramid {
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         int num = 1;
 
         for (int i = 1; i <= n; i++) {
