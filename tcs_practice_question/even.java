@@ -1,4 +1,4 @@
-// count even and odd number in an array.
+// count even and odd number in an array. and how to cound it?
 class even{
     public static void main(String[]args){
         int [] arr = {1,2,3,4,53,44,54,55,34};
@@ -13,7 +13,7 @@ class even{
             }   
 
         }
-        System.out.println("Even Count: " + evenCount);
-        System.out.println("Odd Count: " + oddCount);
+        System.out.println("Even Count number: " + evenCount);
+        System.out.println("Odd Count number: " + oddCount);
     }
 }
